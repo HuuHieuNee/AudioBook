@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragment.Personalization4Fragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <View
+        android:id="@+id/background"
+        android:layout_width="571dp"
+        android:layout_height="812dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="-62dp"
+        android:layout_marginTop="-45dp"
+        android:background="#0F0F29" />
+    <View
+        android:id="@+id/home_indica"
+        android:layout_width="134dp"
+        android:layout_height="5dp"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="8dp"
+        android:background="@drawable/home_indica"
+        />
+
+    <View
+        android:id="@+id/ellipse_7"
+        android:layout_width="wrap_content"
+        android:layout_height="98dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="-50dp"
+        android:layout_marginTop="-28dp"
+        android:layout_marginRight="336dp"
+        android:layout_marginBottom="661dp"
+        android:background="@drawable/ellipse_17" />
+
+    <View
+        android:id="@+id/ellipse_6"
+        android:layout_width="wrap_content"
+        android:layout_height="98dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="343dp"
+        android:layout_marginTop="48dp"
+        android:layout_marginRight="-57dp"
+        android:layout_marginBottom="585dp"
+        android:background="@drawable/ellipse_17" />
+
+
+
+
+
+    <View
+        android:id="@+id/rectangle"
+        android:layout_width="0dp"
+        android:layout_height="812dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/rectangle" />
+
+
+    <Button
+        android:id="@+id/button"
+    android:layout_width="330dp"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="40dp"
+    android:layout_marginTop="533dp"
+    android:layout_marginRight="40dp"
+    android:layout_marginBottom="153dp"
+    android:alpha="0.5"
+    android:background="@drawable/button"
+    android:text="Submit" />
+
+    <Button
+        android:id="@+id/skip_button"
+        android:layout_width="333dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="603dp"
+        android:alpha="0.5"
+        android:background="@drawable/skip_button_background"
+        android:text="Skip"
+        android:textColor="@android:color/white" />
+
+    <TextView
+        android:layout_width="224dp"
+        android:layout_height="85dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="45dp"
+        android:layout_marginTop="195dp"
+        android:gravity="top"
+        android:singleLine="true"
+        android:text="Personalize Suggestion"
+        android:textSize="18sp"
+        android:textAppearance="@style/welcome_" />
+
+    <TextView
+        android:layout_width="310dp"
+        android:layout_height="81dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="45dp"
+        android:layout_marginTop="224dp"
+        android:textColor="@color/white"
+        android:gravity="top"
+        android:text="Choose min. 3 topics you like, we will give you more often that relate to it." />
+
+    <EditText
+        android:id="@+id/color_input"
+        android:layout_width="293dp"
+        android:layout_height="54dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="282dp"
+        android:backgroundTint="#FF018786"
+        android:hint="Placeholder"
+        android:padding="10dp"
+        android:textAppearance="@style/by_personal"
+        android:textColorHint="#D3D3D3"
+        android:background="@drawable/rounded_edittext"/>
+
+    <include
+        layout="@layout/my_chip_group_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|start"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="331dp"
+        android:layout_marginRight="51dp"
+        android:layout_marginBottom="281dp"
+        android:background="@drawable/my_button_selector"
+       />
+
+</RelativeLayout>

@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <com.google.android.material.chip.ChipGroup
+        android:id="@+id/chipGroup1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:checkedButton="@id/chip1"
+        android:orientation="horizontal"
+        android:layout_weight="1">
+
+        <com.google.android.material.chip.Chip
+            android:id="@+id/chip1"
+            style="@style/ChipStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Art"
+            android:textColor="@color/white"
+            android:layout_margin="4dp"
+            android:layout_weight="1"
+            android:backgroundTint="@android:color/black"
+            />
+
+        <com.google.android.material.chip.Chip
+            android:id="@+id/chip2"
+            style="@style/ChipStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Business"
+            android:textColor="@color/white"
+            android:layout_margin="4dp"
+            android:layout_weight="1"
+            android:backgroundTint="@android:color/black" />
+
+        <com.google.android.material.chip.Chip
+            android:id="@+id/chip3"
+            style="@style/ChipStyle"
+            android:textColor="@color/white"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Biography"
+            android:layout_margin="4dp"
+            android:layout_weight="1"
+            android:backgroundTint="@android:color/black" />
+
+    </com.google.android.material.chip.ChipGroup>
+
+    <com.google.android.material.chip.ChipGroup
+        android:id="@+id/chipGroup2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:checkedButton="@id/chip4"
+        android:orientation="horizontal"
+        android:layout_weight="1"
+        >
+
+        <com.google.android.material.chip.Chip
+            android:id="@+id/chip4"
+            style="@style/ChipStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Comedy"
+            android:textColor="@color/white"
+            android:layout_margin="4dp"
+            android:layout_weight="1"
+            android:backgroundTint="@android:color/black" />
+
+        <com.google.android.material.chip.Chip
+            android:id="@+id/chip5"
+            style="@style/ChipStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Culture"
+            android:textColor="@color/white"
+            android:layout_margin="4dp"
+            android:layout_weight="1"
+            android:backgroundTint="@android:color/black" />
+
+        <com.google.android.material.chip.Chip
+            android:id="@+id/chip6"
+            style="@style/ChipStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Education"
+            android:textColor="@color/white"
+            android:layout_margin="4dp"
+            android:layout_weight="1"
+            android:backgroundTint="@android:color/black" />
+    </com.google.android.material.chip.ChipGroup>
+
+
+    </LinearLayout>

@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragment.Personalization6Fragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <View
+        android:id="@+id/background"
+        android:layout_width="571dp"
+        android:layout_height="812dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="-68dp"
+        android:layout_marginTop="-34dp"
+        android:background="#0F0F29" />
+    <View
+        android:id="@+id/home_indica"
+        android:layout_width="134dp"
+        android:layout_height="5dp"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="8dp"
+        android:background="@drawable/home_indica"
+        />
+
+    <View
+        android:id="@+id/ellipse_7"
+        android:layout_width="wrap_content"
+        android:layout_height="98dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="-50dp"
+        android:layout_marginTop="-28dp"
+        android:layout_marginRight="336dp"
+        android:layout_marginBottom="661dp"
+        android:background="@drawable/ellipse_17" />
+
+    <View
+        android:id="@+id/ellipse_6"
+        android:layout_width="wrap_content"
+        android:layout_height="98dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="343dp"
+        android:layout_marginTop="48dp"
+        android:layout_marginRight="-57dp"
+        android:layout_marginBottom="585dp"
+        android:background="@drawable/ellipse_17" />
+
+    <View
+        android:id="@+id/rectangle"
+        android:layout_width="0dp"
+        android:layout_height="812dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/rectangle" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="322dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="488dp"
+        android:background="@drawable/button"
+        android:text="Finish"
+        android:textColor="@color/white"/>
+
+    <TextView
+        android:id="@+id/by_personal"
+        android:layout_width="303dp"
+        android:layout_height="32dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="45dp"
+        android:layout_marginTop="441dp"
+        android:gravity="center"
+  android:text="Congratulation,any topics will be shortly in yours hand"
+        android:textAppearance="@style/by_personal" />
+    <TextView
+        android:id="@+id/you_are_rea"
+        android:layout_width="303dp"
+        android:layout_height="32dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="45dp"
+        android:layout_marginTop="410dp"
+        android:text="You are ready to go !"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:textAppearance="@style/by_personal"
+        android:gravity="center_horizontal|top"
+        />
+
+    <ImageView
+        android:layout_width="258dp"
+        android:layout_height="248dp"
+        android:layout_marginTop="170dp"
+        android:layout_marginLeft="65dp"
+        android:src="@drawable/logo1" />
+
+
+</RelativeLayout>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="welcome_">
+        <item name="android:textSize">
+            16sp
+        </item>
+        <item name="android:textColor">
+            #FFBB86FC
+        </item>
+
+    </style>
+    <style name="find_what_y">
+        <item name="android:textSize">
+            48sp
+        </item>
+        <item name="android:textColor">
+            #FFFFFF
+        </item>
+    </style>
+    <style name="by_personal">
+
+        <item name="android:textSize">
+            14sp
+        </item>
+
+        <item name="android:textColor">
+            #FFFFFF
+        </item>
+
+    </style>
+    <style name="label">
+
+        <item name="android:textSize">
+            16sp
+        </item>
+
+        <item name="android:textColor">
+            #FFFFFF
+        </item>
+
+    </style>
+    <style name="ChipStyle" parent="@style/Widget.MaterialComponents.Chip.Choice">
+        <item name="android:textSize">14sp</item>
+        <item name="chipCornerRadius">20dp</item>
+        <item name="chipStrokeWidth">1dp</item>
+        <item name="chipStrokeColor">@android:color/white</item>
+    </style>
+    <style name="tittle_one">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">#F5F5FA</item>
+    </style>
+    <style name="lorem_ipsum">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">#F5F5FA</item>
+    </style>
+    <style name="label">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+    <style name="tittle_two">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">#F5F5FA</item>
+    </style>
+    <style name="ops_somethi">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">#F5F5FA</item>
+    </style>
+    <style name="please_chec">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">#F5F5FA</item>
+    </style>
+
+</resources>

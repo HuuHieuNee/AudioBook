@@ -53,7 +53,7 @@
         <item name="android:textSize">14sp</item>
         <item name="android:textColor">#F5F5FA</item>
     </style>
-    <style name="label">
+    <style name="label1">
         <item name="android:textSize">16sp</item>
         <item name="android:textColor">#FFFFFF</item>
     </style>
@@ -69,5 +69,81 @@
         <item name="android:textSize">14sp</item>
         <item name="android:textColor">#F5F5FA</item>
     </style>
-
+    <style name="version_1_0">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">#F5F5FA</item>
+    </style>
+    <style name="subscribe_n">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+    <style name="it_s_easy_t">
+        <item name="android:textSize">32sp</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+    <string name="it_s_easy_t">
+It Easy to Get Insights
+</string>
+    <style name="stayinspire">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+    <style name="cancel_anyt">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">#D5D5E3</item>
+    </style>\
+    <style name="exclusive_c">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">#D5D5E3</item>
+    </style>
+    <string name="exclusive_c">
+Exclusive content from hand-picked creators.
+</string>
+    <style name="ad_free_exp">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">#D5D5E3</item>
+    </style>
+    <style name="read_and_li">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">#D5D5E3</item>
+    </style>
+    <style name="what_you_ge">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">#F5F5FA</item>
+    </style>
+    <string name="what_you_ge">
+What you get from subscription:
+</string>
+    <style name="take_these_">
+        <item name="android:textSize">24sp</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+    <style name="john_doe">
+        <item name="android:textSize">22sp</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+    <style name="view_profil">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">#BBB1FA</item>
+    </style>
+    <style name="notificatio">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">#F5F5FA</item>
+    </style>
+    <style name="data_and_st">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">#F5F5FA</item>
+    </style>
+    <style name="subscriptio">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">#F5F5FA</item>
+    </style>
+    <style name="linked_acco">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">#F5F5FA</item>
+    </style>
+    <style name="about_audib">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">#F5F5FA</item>
+    </style>
 </resources>

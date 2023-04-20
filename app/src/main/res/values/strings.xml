@@ -30,5 +30,47 @@ Tittle Two
     <string name="label1">
 Retry
 </string>
+    <string name="version_1_0">
+Version 1.0
+</string>
+    <string name="subscribe_n">
+Subscribe Now
+</string>
+    <string name="stayinspire">
+#StayInspired
+</string>
+    <string name="cancel_anyt">
+Cancel anytime without anymore charged.
+</string>
+    <string name="ad_free_exp">
+Ad-free experience on any platform.
+</string>
+    <string name="read_and_li">
+Read and listen to all premium books without limits.
+</string>
+    <string name="take_these_">
+Take these all!
+</string>
+    <string name="john_doe">
+John Doe
+</string>
+    <string name="view_profil">
+View profile
+</string>
+    <string name="notificatio">
+Notifications
+</string>
+    <string name="data_and_st">
+Data and Storages
+</string>
+    <string name="subscriptio">
+Subscription
+</string>
+    <string name="linked_acco">
+Linked Account
+</string>
+    <string name="about_audib">
+About Audibooks
+</string>
 
 </resources>
